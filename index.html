@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana FIAS 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>SEMANA FIAS 2024</h1>
+            <p>Charlas y actividades académicas</p>
+        </div>
+    </header>
+
+    <nav class="categories">
+        <button class="cat-btn active" data-category="all">Todas</button>
+        <button class="cat-btn" data-category="fisica">Física</button>
+        <button class="cat-btn" data-category="optica">Óptica</button>
+        <button class="cat-btn" data-category="computacion">Computación</button>
+        <!-- Agrega más categorías según necesites -->
+    </nav>
+
+    <main>
+        <!-- DÍA 1 -->
+        <section class="dia" id="lunes">
+            <h2>Lunes 25 de Noviembre</h2>
+            
+            <div class="charla" data-category="fisica computacion">
+                <div class="charla-info">
+                    <span class="horario">10:00 - 11:30 AM</span>
+                    <h3>Mecánica Cuántica Aplicada</h3>
+                    <p class="resumen">Exploraremos los fundamentos de la mecánica cuántica y sus aplicaciones en la tecnología moderna...</p>
+                    <div class="categorias">
+                        <span class="categoria fisica">Física</span>
+                        <span class="categoria computacion">Computación</span>
+                    </div>
+                </div>
+                <div class="profesor">
+                    <img src="assets/images/profes/dr-gonzalez.jpg" alt="Dr. González" class="foto-profesor">
+                    <div class="info-profesor">
+                        <h4>Dr. Carlos González</h4>
+                        <p>Departamento de Física</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="charla" data-category="optica">
+                <div class="charla-info">
+                    <span class="horario">02:00 - 03:30 PM</span>
+                    <h3>Óptica Adaptativa en Astronomía</h3>
+                    <p class="resumen">Cómo la óptica adaptativa está revolucionando la observación astronómica...</p>
+                    <div class="categorias">
+                        <span class="categoria optica">Óptica</span>
+                    </div>
+                </div>
+                <div class="profesor">
+                    <img src="assets/images/profes/dra-martinez.jpg" alt="Dra. Martínez" class="foto-profesor">
+                    <div class="info-profesor">
+                        <h4>Dra. Ana Martínez</h4>
+                        <p>Departamento de Óptica</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DÍA 2 -->
+        <section class="dia" id="martes">
+            <h2>Martes 26 de Noviembre</h2>
+            
+            <!-- Más charlas aquí con la misma estructura -->
+        </section>
+
+        <!-- Agrega más días según necesites -->
+    </main>
+
+    <footer>
+        <p>Facultad de Ingeniería, Arquitectura y Sistemas - Universidad de [Tu Universidad]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
