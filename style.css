@@ -100,12 +100,29 @@ header {
 }
 
 /* SECCIONES DÍAS - Mejorado */
+/*.dia h2 {
+   color: var(--fias-burgundy);
+    border-bottom: 3px solid var(--fias-dark-teal);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}/*
+
+/* SECCIONES DÍAS - VERSIÓN CORREGIDA */
+.dia {
+    margin-bottom: 3rem;
+    width: 100%;
+    padding: 0 10px; /* MARGEN INTERNO */
+}
+
 .dia h2 {
     color: var(--fias-burgundy);
     border-bottom: 3px solid var(--fias-dark-teal);
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
-    font-size: 1.8rem;
+    font-size: clamp(1.5rem, 4vw, 1.8rem);
+    padding-left: 15px; /* Separación extra del borde */
+    padding-right: 15px;
 }
 
 /* TARJETAS DE CHARLAS - Completamente rediseñadas para oscuro */
