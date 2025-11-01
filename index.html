@@ -16,7 +16,10 @@
     
     <header>
         <div class="header-content">
-            <h1>SEMANA FIAS 2025</h1>
+            <div class="logo-title-container">
+                <img src="logo.png" alt="Logo FIAS" class="header-logo">
+                <h1>SEMANA FIAS 2025</h1>
+            </div>
             <p>Charlas y actividades académicas</p>
         </div>
     </header>
@@ -24,9 +27,7 @@
     <nav class="categories">
         <button class="cat-btn active" data-category="all">Todas</button>
         <button class="cat-btn" data-category="fisica">Física</button>
-        <button class="cat-btn" data-category="optica">Óptica</button>
-        <button class="cat-btn" data-category="computacion">Computación</button>
-        <!-- Agrega más categorías según necesites -->
+        <button class="cat-btn" data-category="astronomia">Astronomía</button>
     </nav>
 
     <main>
@@ -39,6 +40,9 @@
                     <span class="horario">10:15 - 11:15 AM</span>
                     <h3>Licenciatura en Ciencias, mención Física en la FCFM</h3>
                     <p class="resumen">En esta charla daremos una visión panorámica a la Licenciatura en ciencias, mención Física, sus cursos y contenidos, infraestructura y objetivos, además de mostrar las actividades académicas que se desarrollan dentro de ésta.</p>
+                    <div class="temas-container">
+                        <strong>Temas:</strong> física teórica, mecánica cuántica, educación científica
+                    </div>
                     <div class="categorias">
                         <span class="categoria fisica">Física</span>
                     </div>
@@ -57,6 +61,9 @@
                     <span class="horario">12:00 - 13:00 AM</span>
                     <h3>Licenciatura en Ciencias, mención Física en la FCFM</h3>
                     <p class="resumen">En esta charla daremos una visión panorámica a la Licenciatura en ciencias, mención Física, sus cursos y contenidos, infraestructura y objetivos, además de mostrar las actividades académicas que se desarrollan dentro de ésta.</p>
+                    <div class="temas-container">
+                        <strong>Temas:</strong> física experimental, laboratorios, investigación aplicada
+                    </div>
                     <div class="categorias">
                         <span class="categoria fisica">Física</span>
                     </div>
@@ -70,14 +77,16 @@
                 </div>
             </div>
 
-            <div class="charla" data-category="fisica computacion">
+            <div class="charla" data-category="astronomia">
                 <div class="charla-info">
                     <span class="horario">14:30 - 15:30 PM</span>
                     <h3>Planetary atmospheres through eclipses: The cases of Antarctica, Io, and Extrasolar planets</h3>
                     <p class="resumen">Esta charla presenta estudios recientes sobre atmósferas mediantes eclipses. Por un lado, se midió la respuesta atmosférica al eclipse solar total de 2021 en la Antártida, un evento único por sus condiciones extremas. Por otro, se usaron los eclipses frecuentes de la luna Ío de Júpiter para observar con ALMA cómo su atmósfera de dióxido de azufre colapsa y se recupera. Finalmente, se comentarán los avances en la aplicación de esta técnica para estudiar atmósferas de exoplanetas.</p>
+                    <div class="temas-container">
+                        <strong>Temas:</strong> atmósferas planetarias, eclipses, exoplanetas, ALMA
+                    </div>
                     <div class="categorias">
-                        <span class="categoria fisica">Física</span>
-                        <span class="categoria computacion">Computación</span>
+                        <span class="categoria astronomia">Astronomía</span>
                     </div>
                 </div>
                 <div class="profesor">
@@ -88,22 +97,22 @@
                     </div>
                 </div>
             </div>
-
-
         </section>
 
         <!-- DÍA MARTES -->
         <section class="dia" id="martes">
             <h2>Martes 4 de Noviembre</h2>
             
-            <div class="charla" data-category="fisica computacion">
+            <div class="charla" data-category="astronomia">
                 <div class="charla-info">
                     <span class="horario">10:15 - 11:15 AM</span>
                     <h3>SOS: How to Detect the Atoms Between Galaxies (and Why It Matters)</h3>
                     <p class="resumen">Revisaré los últimos resultados sobre el medio intergaláctico, haciendo hincapié en su estructura espacial y su importancia para la teoría de la evolución de las galaxias.</p>
+                    <div class="temas-container">
+                        <strong>Temas:</strong> medio intergaláctico, evolución de galaxias, cosmología
+                    </div>
                     <div class="categorias">
-                        <span class="categoria fisica">Física</span>
-                        <span class="categoria computacion">Computación</span>
+                        <span class="categoria astronomia">Astronomía</span>
                     </div>
                 </div>
                 <div class="profesor">
@@ -115,14 +124,16 @@
                 </div>
             </div>
 
-            <div class="charla" data-category="fisica computacion">
+            <div class="charla" data-category="astronomia">
                 <div class="charla-info">
                     <span class="horario">12:00 - 13:00 PM</span>
                     <h3>Unveiling the mysteries of the early Universe with JWST</h3>
                     <p class="resumen">La Época de Reionización, cuando el universo pasó de ser oscuro a estar lleno de luz, es un período crucial para el que ahora tenemos una ventana directa gracias al Telescopio James Webb. Esta charla repasará los descubrimientos que este instrumento ha hecho posibles sobre las primeras estrellas y galaxias, y explorará las prometedoras perspectivas futuras, en especial las sinergias con los telescopios terrestres en Chile.</p>
+                    <div class="temas-container">
+                        <strong>Temas:</strong> James Webb, época de reionización, primeras galaxias, telescopios
+                    </div>
                     <div class="categorias">
-                        <span class="categoria fisica">Física</span>
-                        <span class="categoria computacion">Computación</span>
+                        <span class="categoria astronomia">Astronomía</span>
                     </div>
                 </div>
                 <div class="profesor">
@@ -134,14 +145,16 @@
                 </div>
             </div>
 
-            <div class="charla" data-category="fisica computacion">
+            <div class="charla" data-category="fisica">
                 <div class="charla-info">
                     <span class="horario">14:30-15:30 PM</span>
                     <h3>Desafíos teóricos en materia activa</h3>
-                    <p class="resumen">¿Cómo podemos describir las propiedades colectivas de un conjunto de miles o millones de motores en interacción? ¿En qué difieren de las propiedades de un conjunto de átomos, que hoy entendemos con las herramientas de la termodinámica y mecánica estadística? Estas no son preguntas arbitrarias sino que corresponde a uno de los desafíos de entender, desde la física, a conjuntos formados por animales, células, bacterias o incluso robots que se mueven todo el tiempo. Para esto, usando las herramientas de la física estadística, hemos diseñado modelos teóricos que hemos analizado usando herramientas computacionales, analíticas o incluso experimentales. En esta charla contaré cuáles son los avances que hemos logrado y los desafíos que nos encontramos ahora. </p>
+                    <p class="resumen">¿Cómo podemos describir las propiedades colectivas de un conjunto de miles o millones de motores en interacción? ¿En qué difieren de las propiedades de un conjunto de átomos, que hoy entendemos con las herramientas de la termodinámica y mecánica estadística? Estas no son preguntas arbitrarias sino que corresponde a uno de los desafíos de entender, desde la física, a conjuntos formados por animales, células, bacterias o incluso robots que se mueven todo el tiempo. Para esto, usando las herramientas de la física estadística, hemos diseñado modelos teóricos que hemos analizado usando herramientas computacionales, analíticas o incluso experimentales. En esta charla contaré cuáles son los avances que hemos logrado y los desafíos que nos encontramos ahora.</p>
+                    <div class="temas-container">
+                        <strong>Temas:</strong> materia activa, física estadística, sistemas complejos, simulación computacional
+                    </div>
                     <div class="categorias">
                         <span class="categoria fisica">Física</span>
-                        <span class="categoria computacion">Computación</span>
                     </div>
                 </div>
                 <div class="profesor">
@@ -153,14 +166,16 @@
                 </div>
             </div>
 
-            <div class="charla" data-category="fisica computacion">
+            <div class="charla" data-category="fisica">
                 <div class="charla-info">
                     <span class="horario">16:15-17:15 PM</span>
                     <h3>Soluciones tipo partícula</h3>
                     <p class="resumen">En esta charla exploraremos cómo ciertos sistemas macroscópicos pueden presentar soluciones tipo partícula, es decir, estructuras localizadas, estables y dinámicas que se comportan como entidades discretas dentro de un medio continuo. Un ejemplo prototípico de este fenómeno son los solitones disipativos, que emergen en sistemas no lineales con pérdidas y fuentes externas.</p>
+                    <div class="temas-container">
+                        <strong>Temas:</strong> solitones, sistemas no lineales, óptica no lineal, dinámica de medios continuos
+                    </div>
                     <div class="categorias">
                         <span class="categoria fisica">Física</span>
-                        <span class="categoria computacion">Computación</span>
                     </div>
                 </div>
                 <div class="profesor">
@@ -171,21 +186,22 @@
                     </div>
                 </div>
             </div>
-            
-            
         </section>
 
         <!-- DÍA MIERCOLES -->
         <section class="dia" id="miercoles">
             <h2>Miércoles 5 de Noviembre</h2>
 
-            <div class="charla" data-category="computacion">
+            <div class="charla" data-category="astronomia">
                 <div class="charla-info">
                     <span class="horario">14:30 - 15:30 PM</span>
                     <h3>ALeRCE: un broker comunitario para el observatorio Vera C. Rubin</h3>
-                    <p class="resumen"> Presentaré el proyecto ALeRCE, uno de los siete agentes o brokers comunitarios seleccionados para procesar las alertas del observatorio Vera C. Rubin. ALeRCE es una colaboración interdisciplinaria que comenzó a procesar datos de surveys astronómicos desde 2019 combinando herramientas de bases de datos, inteligencia artificial, ingeniería de software y astronomía con el objetivo de disponibilizar datos astronómicos enriquecidos para su explotación científica. ALeRCE tiene usuarios en 139 países y ha reportado más de 24 mil supernovas. </p>
+                    <p class="resumen"> Presentaré el proyecto ALeRCE, uno de los siete agentes o brokers comunitarios seleccionados para procesar las alertas del observatorio Vera C. Rubin. ALeRCE es una colaboración interdisciplinaria que comenzó a procesar datos de surveys astronómicos desde 2019 combinando herramientas de bases de datos, inteligencia artificial, ingeniería de software y astronomía con el objetivo de disponibilizar datos astronómicos enriquecidos para su explotación científica. ALeRCE tiene usuarios en 139 países y ha reportado más de 24 mil supernovas.</p>
+                    <div class="temas-container">
+                        <strong>Temas:</strong> Vera C. Rubin, inteligencia artificial, big data astronómico, supernovas
+                    </div>
                     <div class="categorias">
-                        <span class="categoria computacion">Computación</span>
+                        <span class="categoria astronomia">Astronomía</span>
                     </div>
                 </div>
                 <div class="profesor">
@@ -197,14 +213,16 @@
                 </div>
             </div>
             
-            <div class="charla" data-category="computacion">
+            <div class="charla" data-category="astronomia">
                 <div class="charla-info">
                     <span class="horario">16:15 - 17:15 PM</span>
                     <h3>Observaciones de un planeta en crecimiento</h3>
                     <p class="resumen">Por mucho que nos esforcemos en predicciones físicas, la naturaleza siempre nos sorprende. Este es el caso de los mecanismos que dan lugar a señal  en PDS70c, el  único caso de protoplaneta en que las observaciones son posibles, aunque desafiantes.</p>
+                    <div class="temas-container">
+                        <strong>Temas:</strong> formación planetaria, protoplanetas, PDS70c, discos protoplanetarios
+                    </div>
                     <div class="categorias">
-                        <span class="categoria fisica">Física</span>
-                        <span class="categoria computacion">Computación</span>
+                        <span class="categoria astronomia">Astronomía</span>
                     </div>
                 </div>
                 <div class="profesor">
@@ -215,20 +233,22 @@
                     </div>
                 </div>
             </div>
-            
         </section>
         
         <!-- DÍA JUEVES -->
         <section class="dia" id="jueves">
             <h2>Jueves 6 de Noviembre</h2>
             
-            <div class="charla" data-category="computacion">
+            <div class="charla" data-category="fisica">
                 <div class="charla-info">
                     <span class="horario">10:15 - 11:15 PM</span>
                     <h3>Avances en Óxidos Metálicos para Electrónica y Almacenamiento de Energía</h3>
                     <p class="resumen">Los óxidos de metales de transición (TMOs) son materiales prometedores para aplicaciones en electrónica y almacenamiento de energía debido a sus propiedades únicas. Este trabajo presenta la síntesis de películas ultrafinas de VOx, LMO y LNMO, cuya topografía y comportamiento eléctrico-electroquímico fueron caracterizados. Los resultados preliminares demuestran su potencial como materiales para dispositivos de conmutación resistiva y como cátodos en baterías de ion-litio, abriendo caminos hacia tecnologías más eficientes y sostenibles.</p>
+                    <div class="temas-container">
+                        <strong>Temas:</strong> óxidos metálicos, electrónica, almacenamiento de energía, materiales, nanotecnología
+                    </div>
                     <div class="categorias">
-                        <span class="categoria computacion">Computación</span>
+                        <span class="categoria fisica">Física</span>
                     </div>
                 </div>
                 <div class="profesor">
@@ -247,7 +267,6 @@
             
             <!-- Más charlas aquí con la misma estructura -->
         </section>
-        <!-- Agrega más días según necesites -->
     </main>
 
     <footer>
