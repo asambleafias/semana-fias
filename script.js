@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // Filtrado de categorías (tu código original)
+    // Filtrado de categorías (actualizado para física y astronomía)
     const filterButtons = document.querySelectorAll('.cat-btn');
     const charlas = document.querySelectorAll('.charla');
     
