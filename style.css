@@ -344,4 +344,56 @@ footer {
         padding: 8px 14px;
         font-size: 13px;
     }
+
+/* LOGO EN EL HEADER */
+.logo-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.header-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* CONTENEDOR DE TEMAS */
+.temas-container {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 4px solid var(--fias-burgundy);
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+}
+
+.temas-container strong {
+    color: var(--fias-burgundy);
+}
+
+/* CATEGORÍA ASTRONOMÍA */
+.categoria.astronomia {
+    background: linear-gradient(135deg, rgba(255, 152, 0, 0.15), rgba(255, 152, 0, 0.05));
+    color: #ffb74d;
+    border-color: #f57c00;
+}
+
+/* RESPONSIVE PARA EL LOGO */
+@media (max-width: 768px) {
+    .logo-title-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .header-logo {
+        width: 70px;
+        height: 70px;
+    }
 }
